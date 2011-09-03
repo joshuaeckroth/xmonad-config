@@ -1,0 +1,12 @@
+background yes
+out_to_x no
+out_to_console yes
+update_interval 1.0
+no_buffers yes
+text_buffer_size 512
+ 
+ 
+TEXT
+^fg(\#888888)| ^fg(green)^i(/home/josh/.xmonad/dzen2/icons/sm4tik/xbm8x8/cpu.xbm) ^fg(\#cccccc)${cpu cpu0}% ^fg(\#888888)| ^fg(green)^i(/home/josh/.xmonad/dzen2/icons/sm4tik/xbm8x8/mem.xbm) ^fg(\#cccccc)$mem ^fg(\#888888)| ^fg(\white)${execi 300 /home/josh/.xmonad/dzen2/scripts/check-gmail n 2>>/dev/null} ^fg(\#888888)| ^fg(green)${time %d-%m-%y %l:%M%p}
+
+
